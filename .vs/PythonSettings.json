@@ -1,5 +1,0 @@
-{
-  "TestFramework": "Pytest",
-  "Interpreter": "CondaEnv|CondaEnv|GBSDask",
-  "SuppressConfigureTestFrameworkPrompt": "true"
-}
