@@ -1,0 +1,25 @@
+C:\Users\em1120\AppData\Local\anaconda3\envs\DGBSenv\lib\site-packages\strawberryfields\apps\data\sample.py:20: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[er32_k6_p0.1_s49_direct_ncoh2_nsqz4_loss0.2_ss7049_it8] D-GBS: <n_sqz> = 4.00, <n_disp> = 2.00 (sum |alpha_i|^2), total = 6.00
+[start] D-GBS
+[done ] D-GBS: 8s, mean clicks 3.86
+max clique: [0, 1, 2, 3, 4, 5] | samples: 500 | setup 39s
+[start] GBS
+[done ] GBS: 7s, mean clicks 2.86
+[start] GBS (matched photon number)
+[done ] GBS (matched photon number): 8s, mean clicks 3.64
+[start] Thermal
+[done ] Thermal: 8s, mean clicks 3.84
+[start] Phase-random. (per mode)
+[done ] Phase-random. (per mode): 8s, mean clicks 3.79
+[start] Phase-random. (global)
+[done ] Phase-random. (global): 9s, mean clicks 3.85
+D-GBS                            mean clicks  3.86 | final success  66.6% | 0s
+GBS                              mean clicks  2.86 | final success  64.5% | 0s
+GBS (matched photon number)      mean clicks  3.64 | final success  70.1% | 0s
+Thermal                          mean clicks  3.84 | final success  71.1% | 0s
+Phase-random. (per mode)         mean clicks  3.79 | final success  70.4% | 0s
+Phase-random. (global)           mean clicks  3.85 | final success  69.8% | 0s
+Coherent only                    mean clicks  1.50 | final success  75.9% | 0s
+Uniform                          final success  50.7%
+Independent nodes                final success  76.6%
